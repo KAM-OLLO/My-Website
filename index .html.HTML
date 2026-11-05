@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Information</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .container {
+            width: 410px;
+            margin: 30px auto;
+            border: 1px solid #5b9bd5;
+            padding: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #2f75b5;
+            margin: 0;
+        }
+
+        .step {
+            text-align: center;
+            color: #2f75b5;
+            font-weight: bold;
+        }
+
+        fieldset {
+            width: 350px;
+            margin: auto;
+            border: 1px solid #c9d9e8;
+        }
+
+        legend {
+            text-align: center;
+            font-weight: bold;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 4px;
+            font-size: 12px;
+        }
+
+        input, select {
+            width: 125px;
+            height: 20px;
+            box-sizing: border-box;
+        }
+
+        .radio {
+            width: auto;
+            height: auto;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        button {
+            background-color: #2f9bd3;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            margin: 2px;
+        }
+
+        .footer {
+            background-color: #0878b8;
+            color: white;
+            text-align: center;
+            font-size: 10px;
+            padding: 5px;
+            margin: 20px -20px -20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="step">Step 1 of 5</div>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <table>
+            <tr>
+                <td>Sur Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Other Names</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input class="radio" type="radio" name="gender">
+                    Male
+                    <input class="radio" type="radio" name="gender">
+                    Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Marital Status</td>
+                <td>
+                    <select>
+                        <option>Select - Status</option>
+                        <option>Single</option>
+                        <option>Married</option>
+                        <option>Divorced</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td>Place of Birth</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Mothers Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>fathers Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>number of Dependants</td>
+                <td>
+                    <select>
+                        <option>Select - No of Dependants</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5+</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>level of Education</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Security Information</legend>
+
+        <table>
+            <tr>
+                <td>UserName</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>Re-type Password</td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>Security Question</td>
+                <td>
+                    <select>
+                        <option>Select - Question</option>
+                        <option>What is your favourite colour?</option>
+                        <option>What is your pet's name?</option>
+                        <option>Where were you born?</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Answer</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+    </fieldset>
+
+    <div class="buttons">
+        <button type="button">Previous</button>
+        <button type="button">Next</button>
+    </div>
+
+    <div class="footer">
+        Copyright © 2011 all rights reserved
+    </div>
+
+</div>
+
+</body>
+</html>
